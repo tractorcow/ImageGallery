@@ -4,3 +4,6 @@ Image:
 SiteTree:
   extensions:
     - 'ImageGallerySiteTree'
+ImageGalleryItem:
+  extensions:
+    - 'ImageGalleryItemExtension'
