@@ -70,7 +70,7 @@ class ImageGalleryPage extends Page {
 
 	function onBeforeDelete() {
 		// check if Page still exists in live mode
-		$className = $this->ClassName;
+		$className = ClassInfo::baseDataClass($this->ClassName);
 		$livePage = Versioned::get_one_by_stage($className, "Live", "\"{$className}_Live\".\"ID\" = {$this->ID}");
 		// check if Page still exists in stage mode
 		$stagePage = Versioned::get_one_by_stage($className, "Stage", "\"{$className}\".\"ID\" = {$this->ID}");
