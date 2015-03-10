@@ -54,6 +54,7 @@ class ImageGalleryItem extends DataObject {
 		$imageField->getValidator()->setAllowedExtensions(File::config()->app_categories['image']);
 		$fields->addFieldToTab('Root.Main', $imageField);
 
+		$this->extend('updateCMSFields', $fields);
 		return $fields;
 	}
 

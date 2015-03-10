@@ -157,6 +157,8 @@ class ImageGalleryPage extends Page {
 				)
 			);
 		}
+
+		$this->extend('updateCMSFields', $fields);
 		
 		return $fields;
 	}

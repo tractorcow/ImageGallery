@@ -69,7 +69,9 @@ class ImageGalleryAlbum extends DataObject {
 		
 		$galleryField = new GridField('GalleryItems', 'Gallery Items', $this->GalleryItems(), $galleryConfig);
 		$fields->addFieldToTab('Root.Images', $galleryField);
-		
+
+		$this->extend('updateCMSFields', $fields);
+
 		return $fields;
 	}
 
