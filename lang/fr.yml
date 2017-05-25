@@ -1,0 +1,63 @@
+fr:
+  AlbumList:
+    IMAGECOUNT: '%s photos'
+  AlbumList.ss:
+    PHOTOS: photos
+  ImageGalleryManager:
+    CHOOSEALBUM: 'Choisissez un album'
+    DATAOBJECTMANAGER: 'Imagegallery requiert le module DataObjectManager.'
+    ERROR: Erreur
+    ROTATECLOCKWISE: 'Tournez vers la droite'
+    ROTATECOUNTERCLOCKWISE: 'Tournez vers la gauche'
+    ROTATING: 'En cours...'
+    UPLOADFROMPC: 'Transférer à partir de mon ordinateur'
+    UPLOADIMAGES: 'Transférer images'
+    UPLOADIMAGESTO: 'Télécharger images dans " %s "'
+  ImageGalleryPage.ss:
+    ALBUMSINGALLERY: 'Albums dans %s'
+  ImageGalleryPage_album.ss:
+    GOTOALBUM: 'Aller à l’album %s'
+    NEXT: Suivant
+    NEXTALBUM: 'Album suivant'
+    PREVIOUS: Précédent
+    PREVIOUSALBUM: 'Album précédent'
+    VIEWNEXTPAGE: 'Voir la page suivante'
+    VIEWPAGENUMBER: 'Afficher la page numéro %s'
+    VIEWPREVIOUSPAGE: 'Voir la page précédente'
+  TractorCow\ImageGallery\Model\ImageGalleryAlbum:
+    ALBUMNAME: 'Nom de l’album'
+    ALBUMTITLE: 'Titre de l’album'
+    COVERIMAGE: 'Image de couverture'
+    DESCRIPTION: Description
+    PLURALNAME: 'Albums de la galerie d’images'
+    SINGULARNAME: 'Album de la galerie d’images'
+  TractorCow\ImageGallery\Model\ImageGalleryItem:
+    ALBUM: Album
+    CAPTION: Légende
+    PLURALNAME: 'Éléments de la galerie d’images'
+    SINGULARNAME: 'Élément de la galerie d’images'
+  TractorCow\ImageGallery\Pages\ImageGalleryPage:
+    ALBUM: Album
+    ALBUMCOVERIMAGES: 'Images de couverture de l’album'
+    ALBUMS: Albums
+    ALBUMSNOTSAVED: 'Vous pourrez ajouter des albums à votre galerie une fois que vous aurez enregistré la page pour la première fois.'
+    ANALBUM: 'un album'
+    CONFIGURATION: Configuration
+    CROPTOSQUARE: 'Rogner les vignettes au carré'
+    HEIGHT: Hauteur
+    IMAGES: Images
+    IMAGESPERPAGE: 'Nombre d’images par page'
+    MAXFILES: 'Nombre maximum de fichiers dans la file d’attente de téléchargement'
+    MEDIUMSIZE: 'Taille moyenne (pixels)'
+    NOALBUMS: 'Vous n’avez aucun album. Faites clic dans l’onglet Albums pour en créer au moins un avant d’ajouter des images.'
+    NORMALHEIGHT: 'Hauteur courante (pixels)'
+    NORMALSIZE: 'Largeur courante (pixels)'
+    PHOTOS: Photos
+    PHOTOSNOTSAVED: 'Vous pourrez ajouter des photos à votre galerie une fois que vous aurez enregistré la page pour la première fois.'
+    PLURALNAME: 'Pages de la galerie d’images'
+    POPUPSTYLE: 'Style de la fenêtre émergente'
+    SINGULARNAME: 'Page de la galerie d’images'
+    THUMBNAILHEIGHT: 'Hauteur de la vignette (pixels)'
+    TO: à
+    VIEWDEMO: '(voir démo)'
+    WIDTH: Largeur

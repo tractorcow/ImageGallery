@@ -1,6 +1,6 @@
-Image:
+SilverStripe\Assets\Image:
   extensions:
-    - 'ImageGalleryImage'
-SiteTree:
+    - TractorCow\ImageGallery\Model\ImageGalleryImage
+SilverStripe\CMS\Model\SiteTree:
   extensions:
-    - 'ImageGallerySiteTree'
+    - TractorCow\ImageGallery\Extensions\ImageGallerySiteTree

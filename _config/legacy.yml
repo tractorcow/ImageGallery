@@ -1,0 +1,9 @@
+---
+Name: imagegallery-legacy
+---
+
+SilverStripe\ORM\DatabaseAdmin:
+  classname_value_remapping:
+    ImageGalleryAlbum: TractorCow\ImageGallery\Model\ImageGalleryAlbum
+    ImageGalleryItem: TractorCow\ImageGallery\Model\ImageGalleryItem
+    ImageGalleryPage: TractorCow\ImageGallery\Pages\ImageGalleryPage

@@ -1,0 +1,53 @@
+nb:
+  ImageGalleryManager:
+    CHOOSEALBUM: 'Velg et album'
+    DATAOBJECTMANAGER: 'Bildegalleri krever DataObjectManager modulen.'
+    ERROR: Feil
+    ROTATECLOCKWISE: 'Roter med klokken'
+    ROTATECOUNTERCLOCKWISE: 'Roter mot klokken'
+    ROTATING: Rotering
+    UPLOADFROMPC: 'Last opp fra min datamaskin'
+    UPLOADIMAGES: 'Last opp bilder'
+    UPLOADIMAGESTO: 'Last opp bilder til "%s"'
+  ImageGalleryPage.ss:
+    ALBUMSINGALLERY: 'Album i %s'
+  ImageGalleryPage_album.ss:
+    GOTOALBUM: 'G&aring; til %s album'
+    NEXT: Neste
+    NEXTALBUM: 'Neste album'
+    PREVIOUS: Forrige
+    PREVIOUSALBUM: 'Forrige album'
+    VIEWNEXTPAGE: 'Vis neste side'
+    VIEWPAGENUMBER: 'Vis sidenummer %s'
+    VIEWPREVIOUSPAGE: 'Vis forrige side'
+  TractorCow\ImageGallery\Model\ImageGalleryAlbum:
+    ALBUMNAME: 'Navn p&aring; album'
+    ALBUMTITLE: 'Tittel p&aring; album'
+    COVERIMAGE: Coverbilde
+    DESCRIPTION: Beskrivelse
+  TractorCow\ImageGallery\Model\ImageGalleryItem:
+    ALBUM: Album
+    CAPTION: Bildetekst
+  TractorCow\ImageGallery\Pages\ImageGalleryPage:
+    ALBUM: Album
+    ALBUMCOVERIMAGES: 'Album coverbilder'
+    ALBUMS: Album
+    ALBUMSNOTSAVED: 'Du kan legge album til ditt galleri n&aring;r du har lagret siden for f&oslash;rste gang.'
+    ANALBUM: 'et album'
+    CONFIGURATION: Konfigurasjon
+    CROPTOSQUARE: 'Beskj&aelig;r thumbnails til kvadrat'
+    IMAGES: Bilder
+    IMAGESPERPAGE: 'Antall bilder per side'
+    MAXFILES: 'Maks antall filer tillatt i opplastingsk&oslash;'
+    MEDIUMSIZE: 'Medium st&oslash;rrelse (piksler)'
+    NOALBUMS: 'Du har ingen album. Klikk p&aring; albumfanen for &aring; lage minst ett album f&oslash;r du legger til bilder.'
+    NORMALHEIGHT: 'Normal h&oslash;yde (piksler)'
+    NORMALSIZE: 'Normal bredde (piksler)'
+    PHOTOS: Bilder
+    PHOTOSNOTSAVED: 'Du kan legge bilder til ditt galleri n&aring;r du har lagret siden for f&oslash;rste gang.'
+    PLURALNAME: Bildegallerier
+    POPUPSTYLE: Popup-stil
+    SINGULARNAME: Bildegalleri
+    THUMBNAILHEIGHT: 'Thumbnail-h&oslash;yde (piksler)'
+    TO: til
+    VIEWDEMO: 'vis demo'

@@ -1,0 +1,46 @@
+sk:
+  ImageGalleryManager:
+    CHOOSEALBUM: 'Zvoľte album'
+    DATAOBJECTMANAGER: 'ImageGallery vyžaduje modul DataObjectManager.'
+    ERROR: Chyba
+    ROTATECLOCKWISE: 'Otočiť v smere hodinových ručičiek'
+    ROTATECOUNTERCLOCKWISE: 'Otočiť proti smeru hodinových ručičiek'
+    ROTATING: Otáčanie
+    UPLOADFROMPC: 'Nahrať z môjho počítača'
+    UPLOADIMAGES: 'Nahrať obrázky'
+    UPLOADIMAGESTO: 'Nahrať obrázky do "%s"'
+  ImageGalleryPage.ss:
+    ALBUMSINGALLERY: 'Albumy v %s'
+  ImageGalleryPage_album.ss:
+    GOTOALBUM: 'Prejdite na album %s'
+    NEXT: Ďalší
+    NEXTALBUM: 'Ďalší album'
+    PREVIOUS: Predchádzajúci
+    PREVIOUSALBUM: 'Predchádzajúci album'
+    VIEWNEXTPAGE: 'Zobraziť ďalšiu stránku'
+    VIEWPAGENUMBER: 'Zobraziť stránku číslo %s'
+    VIEWPREVIOUSPAGE: 'Zobraziť predchádzajúcu stránku'
+  TractorCow\ImageGallery\Model\ImageGalleryAlbum:
+    ALBUMNAME: 'Názov albumu'
+    ALBUMTITLE: 'Titulok albumu'
+    COVERIMAGE: 'Obrázok na obálke'
+    DESCRIPTION: Popis
+  TractorCow\ImageGallery\Model\ImageGalleryItem:
+    ALBUM: Album
+    CAPTION: Titulok
+  TractorCow\ImageGallery\Pages\ImageGalleryPage:
+    ALBUM: Album
+    ALBUMCOVERIMAGES: 'Obrázky na obálke albumu'
+    ALBUMS: Albumy
+    ALBUMSNOTSAVED: 'Albumy môžete pridať do galérie po prvom uložení stránky.'
+    ANALBUM: Album
+    CONFIGURATION: Nastavenia
+    IMAGES: Obrázky
+    IMAGESPERPAGE: 'Počet obrázkov na stránke'
+    MAXFILES: 'Maximálny počet súborov vo fronte'
+    NOALBUMS: 'Nemáte žiadne albumy. Kliknite na kartu Albumy a vytvorte aspoň jeden album pred pridaním fotografií.'
+    NORMALSIZE: 'Štandardná veľkosť (pixely)'
+    PHOTOS: Fotky
+    PHOTOSNOTSAVED: 'Môžete pridať fotografie do galérie po prvom uložení stránky.'
+    POPUPSTYLE: 'Popup style'
+    TO: do

@@ -1,0 +1,63 @@
+es:
+  AlbumList:
+    IMAGECOUNT: '%s fotografías'
+  AlbumList.ss:
+    PHOTOS: fotografías
+  ImageGalleryManager:
+    CHOOSEALBUM: 'Elija un álbum'
+    DATAOBJECTMANAGER: 'ImageGallery requiere el módulo DataObjectManager.'
+    ERROR: Error
+    ROTATECLOCKWISE: 'Girar en sentido horario'
+    ROTATECOUNTERCLOCKWISE: 'Girar en sentido antihorario'
+    ROTATING: Girando...
+    UPLOADFROMPC: 'Subir desde mi ordenador'
+    UPLOADIMAGES: 'Subir imágenes'
+    UPLOADIMAGESTO: 'Subir imágenes en "%s"'
+  ImageGalleryPage.ss:
+    ALBUMSINGALLERY: 'Álbumes en %s'
+  ImageGalleryPage_album.ss:
+    GOTOALBUM: 'Ir al álbum %s'
+    NEXT: Siguiente
+    NEXTALBUM: 'Álbum siguiente'
+    PREVIOUS: Anterior
+    PREVIOUSALBUM: 'Álbum anterior'
+    VIEWNEXTPAGE: 'Ver la página siguiente'
+    VIEWPAGENUMBER: 'Ver la página número %s'
+    VIEWPREVIOUSPAGE: 'Ver la página anterior'
+  TractorCow\ImageGallery\Model\ImageGalleryAlbum:
+    ALBUMNAME: 'Nombre del álbum'
+    ALBUMTITLE: 'Título del álbum'
+    COVERIMAGE: 'Imagen de cubierta'
+    DESCRIPTION: Descripción
+    PLURALNAME: 'Álbumes de la galería de imágenes'
+    SINGULARNAME: 'Álbum de la galería de imágenes'
+  TractorCow\ImageGallery\Model\ImageGalleryItem:
+    ALBUM: Álbum
+    CAPTION: Leyenda
+    PLURALNAME: 'Elementos de la galería de imágenes'
+    SINGULARNAME: 'Elemento de la galería de imágenes'
+  TractorCow\ImageGallery\Pages\ImageGalleryPage:
+    ALBUM: Álbum
+    ALBUMCOVERIMAGES: 'Imágenes de cubierta del álbum'
+    ALBUMS: Álbumes
+    ALBUMSNOTSAVED: 'Podrá añadir álbumes a su galería cuando haya guardado la página por primera vez.'
+    ANALBUM: 'un álbum'
+    CONFIGURATION: Configuración
+    CROPTOSQUARE: 'Recortar miniaturas para cuadrarlas'
+    HEIGHT: Altura
+    IMAGES: Imágenes
+    IMAGESPERPAGE: 'Número de imágenes por página'
+    MAXFILES: 'Número máximo de ficheros en la fila de espera de subida'
+    MEDIUMSIZE: 'Tamaño medio (píxeles)'
+    NOALBUMS: 'No tiene ningún álbum. Haga clic en la pestaña Álbumes para  crear al menos uno antes de añadir imágenes.'
+    NORMALHEIGHT: 'Altura normal (píxeles)'
+    NORMALSIZE: 'Anchura normal (píxeles)'
+    PHOTOS: Fotografías
+    PHOTOSNOTSAVED: 'Podrá añadir fotos a su galería cuando haya guardado la página por primera vez.'
+    PLURALNAME: 'Páginas de la galería de imágenes'
+    POPUPSTYLE: 'Estilo de la ventana emergente'
+    SINGULARNAME: 'Página de la galería de imágenes'
+    THUMBNAILHEIGHT: 'Altura de la miniatura (píxeles)'
+    TO: a
+    VIEWDEMO: '(ver demostración)'
+    WIDTH: Anchura

@@ -1,0 +1,46 @@
+el:
+  ImageGalleryManager:
+    CHOOSEALBUM: 'Επιλέξτε ένα album'
+    DATAOBJECTMANAGER: 'Το ImageGallery απαιτεί το DataObjectManager module.'
+    ERROR: Λάθος
+    ROTATECLOCKWISE: 'Περιστροφή clockwise'
+    ROTATECOUNTERCLOCKWISE: 'Περιστροφή counter-clockwise'
+    ROTATING: Περιστροφή
+    UPLOADFROMPC: 'Ανέβασμα εικόνων από τον Η/Υ μου'
+    UPLOADIMAGES: 'Ανέβασμα εικόνων'
+    UPLOADIMAGESTO: 'Ανέβασμα εικόνων στο "%s"'
+  ImageGalleryPage.ss:
+    ALBUMSINGALLERY: 'Albums στο %s'
+  ImageGalleryPage_album.ss:
+    GOTOALBUM: 'Πηγαίνετε στο %s album'
+    NEXT: Επόμενο
+    NEXTALBUM: 'Επόμενο Album'
+    PREVIOUS: Προηγούμενο
+    PREVIOUSALBUM: 'Προηγούμενο Album'
+    VIEWNEXTPAGE: 'Δείτε την επόμενη σελίδα'
+    VIEWPAGENUMBER: 'Δείτε την σελίδα με αριθμό %s'
+    VIEWPREVIOUSPAGE: 'Δείτε την προηγούμενη σελίδα'
+  TractorCow\ImageGallery\Model\ImageGalleryAlbum:
+    ALBUMNAME: 'Oνομασία Album'
+    ALBUMTITLE: 'Tίτλος Album'
+    COVERIMAGE: 'Εικόνα Εξωφύλλου'
+    DESCRIPTION: Περιγραφή
+  TractorCow\ImageGallery\Model\ImageGalleryItem:
+    ALBUM: Album
+    CAPTION: Λεζάντα
+  TractorCow\ImageGallery\Pages\ImageGalleryPage:
+    ALBUM: Album
+    ALBUMCOVERIMAGES: 'Εικόνες εξωφύλλων Album'
+    ALBUMS: Albums
+    ALBUMSNOTSAVED: 'Μπορείτε να προσθέσετε albums στο gallery σας από την στιγμή που θα σώσετε την σελίδα για πρώτη φορά.'
+    ANALBUM: 'ένα Album'
+    CONFIGURATION: Ρυθμίσεις
+    IMAGES: Εικόνες
+    IMAGESPERPAGE: 'Αριθμός εικόνων ανά σελίδα'
+    MAXFILES: 'Ανώτατος επιτρεπτός αριθμός αρχείων στο upload queue'
+    NOALBUMS: 'Δεν έχετε albums. Επιλέξτε το Albums tab για να δημιουργήσετε τουλάχιστον ένα album πριν προσθέσετε φωτογραφίες.'
+    NORMALSIZE: 'Φυσικό μέγεθος (pixels)'
+    PHOTOS: Φωτογραφίες
+    PHOTOSNOTSAVED: 'Μπορείτε να προσθέσετε φωτογραφίες στο gallery σας από την στιγμή που θα σώσετε την σελίδα για πρώτη φορά.'
+    POPUPSTYLE: 'Popup style'
+    TO: στο

@@ -15,7 +15,7 @@
 		}
 	],
 	"require": {
-		"silverstripe/framework": ">=3.1"
+		"silverstripe/framework": "^4.0"
 	},
 	"support": {
 		"issues": "https://github.com/tractorcow/ImageGallery/issues"
@@ -24,7 +24,7 @@
 		"installer-name": "image_gallery"
 	},
 	"suggests": {
-		"colymba/gridfield-bulk-editing-tools": "dev-master",
+		"colymba/gridfield-bulk-editing-tools": "^3.0",
 		"undefinedoffset/sortablegridfield": "dev-master"
 	}
 }
