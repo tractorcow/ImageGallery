@@ -10,7 +10,8 @@ use SilverStripe\Assets\Folder;
 use SilverStripe\Control\Controller;
 use SilverStripe\Core\ClassInfo;
 use SilverStripe\Core\Convert;
-use SilverStripe\Core\Object;
+//use SilverStripe\Core\Object;
+use SilverStripe\Core\Injector\Injector;
 use SilverStripe\Forms\CheckboxField;
 use SilverStripe\Forms\FieldGroup;
 use SilverStripe\Forms\GridField\GridField;
@@ -287,7 +288,7 @@ class ImageGalleryPage extends Page
     {
         if (($ui = $this->GalleryUI()) && ClassInfo::exists($ui)) {
             Requirements::javascript("image_gallery/javascript/imagegallery_init.js");
-            $this->UI = Object::create($ui);
+            $this->UI = Injector::inst()->create($ui);
             $this->UI->setImageGalleryPage($this);
             $this->UI->initialize();
         }
