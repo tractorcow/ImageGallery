@@ -11,10 +11,10 @@ class Shadowbox extends ImageGalleryUI
 
 	public function initialize()
 	{
-        Requirements::javascript('silverstripe-admin/thirdparty/jquery/jquery.js');
-		Requirements::javascript('image_gallery/gallery_ui/shadowbox/javascript/shadowbox.js');
-		Requirements::javascript('image_gallery/gallery_ui/shadowbox/javascript/shadowbox_init.js');
-		Requirements::css('image_gallery/gallery_ui/shadowbox/css/shadowbox.css');
+        Requirements::javascript('tractorcow/silverstripe-imagegallery: thirdparty/jquery/jquery.js');
+		Requirements::javascript('tractorcow/silverstripe-imagegallery: gallery_ui/shadowbox/javascript/shadowbox.js');
+		Requirements::javascript('tractorcow/silverstripe-imagegallery: gallery_ui/shadowbox/javascript/shadowbox_init.js');
+		Requirements::css('tractorcow/silverstripe-imagegallery: gallery_ui/shadowbox/css/shadowbox.css');
 
 	}
 

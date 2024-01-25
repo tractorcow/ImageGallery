@@ -11,12 +11,12 @@ class FancyBox extends ImageGalleryUI {
 	public $item_template = "TractorCow\\ImageGallery\\Items\\FancyBox_item";
 
 	public function initialize() {
-		Requirements::javascript('silverstripe-admin/thirdparty/jquery/jquery.js');
-		Requirements::javascript('image_gallery/gallery_ui/fancybox/javascript/jquery.fancybox.js');
-		Requirements::javascript('image_gallery/gallery_ui/fancybox/javascript/jquery.pngFix.pack.js');
-		Requirements::javascript('image_gallery/gallery_ui/fancybox/javascript/fancybox_init.js');
+		Requirements::javascript('tractorcow/silverstripe-imagegallery: thirdparty/jquery/jquery.js');
+		Requirements::javascript('tractorcow/silverstripe-imagegallery: gallery_ui/fancybox/javascript/jquery.fancybox.js');
+		Requirements::javascript('tractorcow/silverstripe-imagegallery: gallery_ui/fancybox/javascript/jquery.pngFix.pack.js');
+		Requirements::javascript('tractorcow/silverstripe-imagegallery: gallery_ui/fancybox/javascript/fancybox_init.js');
 
-		Requirements::css('image_gallery/gallery_ui/fancybox/css/fancy.css');
+		Requirements::css('tractorcow/silverstripe-imagegallery: gallery_ui/fancybox/css/fancy.css');
 	}
 
 }

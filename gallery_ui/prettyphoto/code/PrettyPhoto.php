@@ -10,10 +10,10 @@ class PrettyPhoto extends ImageGalleryUI
 
 	public function initialize()
 	{
-        Requirements::javascript('silverstripe-admin/thirdparty/jquery/jquery.js');
-		Requirements::javascript('image_gallery/gallery_ui/prettyphoto/javascript/jquery.prettyPhoto.js');
-		Requirements::javascript('image_gallery/gallery_ui/prettyphoto/javascript/prettyphoto_init.js');
-		Requirements::css('image_gallery/gallery_ui/prettyphoto/css/prettyPhoto.css');
+        Requirements::javascript('tractorcow/silverstripe-imagegallery: thirdparty/jquery/jquery.js');
+		Requirements::javascript('tractorcow/silverstripe-imagegallery: gallery_ui/prettyphoto/javascript/jquery.prettyPhoto.js');
+		Requirements::javascript('tractorcow/silverstripe-imagegallery: gallery_ui/prettyphoto/javascript/prettyphoto_init.js');
+		Requirements::css('tractorcow/silverstripe-imagegallery: gallery_ui/prettyphoto/css/prettyPhoto.css');
 
 	}
 

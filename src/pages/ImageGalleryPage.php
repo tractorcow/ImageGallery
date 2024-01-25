@@ -213,8 +213,8 @@ class ImageGalleryPage extends Page
             }
             // Enable album sorting if necessary module is installed
             // @see composer.json/suggests
-            if (class_exists('GridFieldSortableRows')) {
-                $albumConfig->addComponent(new GridFieldSortableRows('SortOrder'));
+            if (class_exists(\UndefinedOffset\SortableGridField\Forms\GridFieldSortableRows::class)) {
+                $albumConfig->addComponent(  \UndefinedOffset\SortableGridField\Forms\GridFieldSortableRows::create('SortOrder'));
             }
             $albumField = new GridField('Albums', 'Albums', $this->Albums(), $albumConfig);
             $fields->addFieldToTab("Root.Albums", $albumField);
@@ -287,7 +287,7 @@ class ImageGalleryPage extends Page
     public function includeUI()
     {
         if (($ui = $this->GalleryUI()) && ClassInfo::exists($ui)) {
-            Requirements::javascript("image_gallery/javascript/imagegallery_init.js");
+            Requirements::javascript("tractorcow/silverstripe-imagegallery: javascript/imagegallery_init.js");
             $this->UI = Injector::inst()->create($ui);
             $this->UI->setImageGalleryPage($this);
             $this->UI->initialize();
