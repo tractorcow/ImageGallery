@@ -21,8 +21,13 @@
 		"issues": "https://github.com/tractorcow/ImageGallery/issues"
 	},
 	"extra": {
-		"installer-name": "image_gallery"
-	},
+		"installer-name": "image_gallery",
+        "expose": [
+            "javascript",
+            "gallery_ui",
+            "thirdparty"
+        ]
+    },
 	"suggests": {
 		"colymba/gridfield-bulk-editing-tools": "^3.0",
 		"undefinedoffset/sortablegridfield": "dev-master"
