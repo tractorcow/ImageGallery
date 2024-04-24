@@ -76,7 +76,11 @@ class ImageGalleryItem extends DataObject
         'Image.CMSThumbnail' => 'Image',
         'Caption' => 'Image Caption'
     ];
-
+    
+    private static $owns = [
+        'Image'
+    ];
+    
     public function getCMSFields()
     {
         $fields = new FieldList(new TabSet('Root'));
