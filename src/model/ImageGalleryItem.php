@@ -76,7 +76,11 @@ class ImageGalleryItem extends DataObject
         'Image.CMSThumbnail' => 'Image',
         'Caption' => 'Image Caption'
     ];
-
+    
+    private static $owns = [
+        'Image'
+    ];
+    
     public function getCMSFields()
     {
         $fields = new FieldList(new TabSet('Root'));
@@ -86,7 +90,7 @@ class ImageGalleryItem extends DataObject
             new TextareaField('Caption', _t('TractorCow\\ImageGallery\\Model\\ImageGalleryItem.CAPTION', 'Caption')));
 
         // Create image
-        $imageField = new UploadField(Image::class);
+        $imageField = new UploadField('Image');
         $imageField->getValidator()->setAllowedExtensions(File::config()->app_categories['image']);
         $fields->addFieldToTab('Root.Main', $imageField);
 
